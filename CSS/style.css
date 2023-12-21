@@ -29,7 +29,7 @@ body{
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor02), var(--cor05));
-    height: 220px;
+    min-height: 220px;
     min-width: 100px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.177);
 }
@@ -52,9 +52,9 @@ header p{
 }
 header a{
     color: #3ddc84;
-    font: normal bold 1.1em var(--font-padrao);
+    font: normal bold 1em var(--font-padrao);
     text-decoration: none;
-    padding: 10px;
+    padding: 7px;
 }
 header a:hover{
     background-color: var(--cor03);
