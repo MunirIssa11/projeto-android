@@ -26,12 +26,10 @@
 }
 body{
     background-color: var(--cor00);
-
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor02), var(--cor05));
     min-height: 220px;
-
     min-width: 100px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.177);
 }
@@ -53,20 +51,19 @@ header p{
     max-width: 620px;
 }
 header a{
-    color: #3ddc84;
+    color: var(--cor02);
     font: normal bold 1em var(--font-padrao);
     text-decoration: none;
     padding: 7px;
 }
-header a:hover{
-    background-color: var(--cor03);
-    border-radius: 5px;
-    color: var(--cor01);
-    transition-duration: 0.4s;
-}
 nav{
     padding-top: 14px;
     padding-left: 10px;
+}
+header a:hover{
+    color: var(--cor01);
+    transition-duration: 0.4s;
+    text-decoration: underline;
 }
 main{
     background-color: white;
