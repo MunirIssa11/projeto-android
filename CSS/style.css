@@ -63,8 +63,8 @@ header a:hover{
     transition-duration: 0.4s;
 }
 nav{
-    margin-top: 14px;
-    margin-left: 10px;
+    padding-top: 14px;
+    padding-left: 10px;
 }
 main{
     background-color: white;
